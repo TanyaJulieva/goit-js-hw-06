@@ -18,11 +18,8 @@ const markup = arr.map(ingredient => {
   return li;
 });
 
-console.log(markup)
 list.append(...markup)
 };
-
-
 
 createMarkup(ingredients)
 
