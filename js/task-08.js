@@ -9,6 +9,7 @@ function handlerSubmit(evt) {
     if(email.value === "" || password.value === ""){
         const message = "Всі поля повинні бути заповнені!"
         alert(message);
+        return;
     } 
     getObj(email, password);
 
